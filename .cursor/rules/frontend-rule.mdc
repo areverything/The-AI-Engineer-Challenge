@@ -11,3 +11,50 @@ alwaysApply: false
 - You should use Next.js as it works best with Vercel. 
 - This frontend will ultimately be deployed on Vercel, but it should be possible to test locally. 
 - Always provide users with a way to run the created UI once you have created it.
+
+### Color Palette
+
+Use a Miami Art Deco pastel palette inspired by Ocean Drive and South Beach architecture.
+
+#### Primary Colors
+- **Flamingo Pink:** `#F7A8B8` — primary accent, buttons, highlights
+- **Seafoam Green:** `#A8E6CF` — secondary accent, success states, cards
+- **Pale Coral:** `#FFB7A5` — warm accents, hover states, badges
+
+#### Secondary Colors
+- **Sunwashed Yellow:** `#FFEAA7` — warnings, callouts, decorative borders
+- **Powder Blue:** `#B8D4E3` — info states, backgrounds, subtle accents
+- **Lavender Mist:** `#D5C6E0` — tertiary accent, tags, dividers
+
+#### Neutrals
+- **Cream White:** `#FFF8F0` — page backgrounds
+- **Warm Sand:** `#F5EDE3` — card backgrounds, input fields
+- **Deco Charcoal:** `#2D3436` — primary text
+- **Soft Graphite:** `#636E72` — secondary text, captions
+
+### Typography
+- Use a geometric or Art Deco-inspired font for headings (e.g., Poppins, Comfortaa, or Josefin Sans from Google Fonts).
+- Use a clean sans-serif for body text (e.g., Inter or DM Sans).
+- Headings should be bold and uppercase or small-caps where appropriate to evoke the Deco style.
+
+### UI Style Guidelines
+- Rounded corners on cards and buttons (border-radius: 12–16px).
+- Subtle drop shadows with warm tones (e.g., `0 4px 14px rgba(247, 168, 184, 0.15)`).
+- Use thin gold or brass-toned borders (`#D4A574`) sparingly for a luxe Deco accent.
+- Gradients should be soft and pastel — never harsh. Example: `linear-gradient(135deg, #F7A8B8, #FFB7A5)`.
+- Generous whitespace and padding to keep the layout airy and resort-like.
+- Avoid dark mode unless specifically requested. This palette is designed to feel bright, warm, and tropical.
+
+### Component Patterns
+- Buttons: Flamingo Pink background with cream white text. Hover shifts to Pale Coral.
+- Cards: Warm Sand background with a thin Seafoam Green left border or top accent.
+- Navigation: Cream White background with Deco Charcoal text. Active item underlined in Flamingo Pink.
+- Inputs: Warm Sand background, Powder Blue focus ring.
+- Alerts/Toasts: Use Sunwashed Yellow for warnings, Seafoam Green for success, Powder Blue for info, Flamingo Pink for errors.
+
+### Do's and Don'ts
+- DO keep the overall feel light, warm, and inviting — think pastel sunrise over the Atlantic.
+- DO use geometric shapes and symmetry in decorative elements (chevrons, sunbursts, stepped borders).
+- DON'T use saturated neon colors. Everything should feel sun-faded and elegant.
+- DON'T use more than 3 colors in a single component.
+- DON'T default to generic blue/gray Bootstrap or Tailwind defaults.
