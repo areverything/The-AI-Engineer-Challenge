@@ -26,6 +26,12 @@ class ChatRequest(BaseModel):
 def root():
     return {"status": "ok"}
 
+
+@app.get("/api/health")
+def health():
+    """Lightweight check for load balancers and README curl examples."""
+    return {"status": "ok"}
+
 @app.post("/api/chat")
 def chat(request: ChatRequest):
     if not os.getenv("OPENAI_API_KEY"):
