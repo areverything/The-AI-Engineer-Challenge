@@ -748,9 +748,9 @@ Cross-cutting considerations for all three
 Are the vibes of your assistant aligned with your expectations? Why or why not?
 
 **Your Answer:**  
-Mostly yes — within the scope of these three prompts. The responses produced genuinely distinct experiences per persona (the 78-year-old, the day trader, and the college student weren't a blur of generic patterns), re-prioritized content correctly when Maria's context shifted (gate change → safety/urgency; weekend browsing → discovery; Tokyo at 11pm → translation + getting home), and the tax-filing prompt produced real screen-reader-first thinking — landmarks, aria-live, error summaries with focus management — rather than surface-level accessibility clichés.
+Mostly yes, within the scope of these three prompts. The responses produced genuinely distinct experiences per persona (the 78-year-old, the day trader, and the college student weren't a blur of generic patterns), re-prioritized content correctly when Maria's context shifted (gate change → safety/urgency; weekend browsing → discovery; Tokyo at 11pm → translation + getting home), and the tax-filing prompt produced real screen-reader-first thinking (e.g.: landmarks, aria-live, error summaries with focus management) rather than surface-level accessibility clichés.
 
-The misalignment worth flagging: the backend system prompt configures the assistant as a "supportive mental coach," but the model went deep on UX engineering without hesitation. The persona isn't really steering behavior — the model defers to whatever the user asks. That's fine for a general assistant; less fine if the goal is a focused coaching app. Worth tightening the system prompt or adding off-topic guardrails before calling this product-ready.
+The misalignment worth flagging: the backend system prompt configures the assistant as a "supportive mental coach," but the model went deep on UX engineering without hesitation. The persona isn't really steering behavior as the model defers to whatever the user asks. That's fine for a general assistant; less fine if the goal is a focused coaching app. Worth tightening the system prompt or adding off-topic guardrails before calling this product-ready.
 
 ---
 
